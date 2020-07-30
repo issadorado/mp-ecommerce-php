@@ -42,7 +42,7 @@
 
 
 <body class="as-theme-light-heroimage">
-<form id="myForm" action="/pago.php">
+<form id="myForm" action="./pago.php">
 
     <div class="stack">
         
@@ -133,6 +133,7 @@
                                     </div>
                                     <input type="hidden" value=" <?php echo $_POST['price'] ?>" name="price">
                                     <input type="hidden" value=" <?php echo $_POST['title'] ?>" name="title">
+                                    <input type="hidden" value=" <?php echo $_POST['img'] ?>" name="img">
 
                                     <button   type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                                 </div>
