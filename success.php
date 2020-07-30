@@ -72,7 +72,7 @@
                                     <h3> En breve recibirás tu celular a la puerta de tu casa </h3>
                                     <br><br>
 
-                                    <h3> Collection/Payment ID: <? echo $_GET['collection_id']; ?>  <? echo $_GET['payment_type']; ?>  &nbsp; &nbsp;&nbsp;   Payment Method ID: <? echo $_GET['payment_method_id']; ?> &nbsp;&nbsp;&nbsp; External Refenrence: <? echo $_GET['external_reference']; ?> &nbsp;&nbsp;&nbsp; Preference ID: <? echo $_GET['preference_id']; ?> </h3>
+                                    <h3> Collection/Payment ID: <? echo $_GET['collection_id']; ?>  <? echo $_GET['payment_id']; ?>  &nbsp; &nbsp;&nbsp;   Payment Method ID: <? echo $_GET['payment_type']; ?> &nbsp;&nbsp;&nbsp; External Refenrence: <? echo $_GET['external_reference']; ?> &nbsp;&nbsp;&nbsp; Preference ID: <? echo $_GET['preference_id']; ?> </h3>
 
                                     <br><br>
                                     <h4> Gracias por confiar en tu Tienda e-commerce =D </h4>
