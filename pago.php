@@ -15,6 +15,10 @@ $item->quantity = 1;
 $item->unit_price = 75.56;
 $preference->items = array($item);
 $preference->save();
+
+echo $preference->id; 
+ echo $_POST['price'];
+ echo $_POST['title'];
 ?>
 
 <form action="/procesar-pago" method="POST">

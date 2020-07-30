@@ -131,6 +131,9 @@
                                             <?php echo "$" . $_POST['unit'] ?>
                                         </h3>
                                     </div>
+                                    <input type="hidden" value=" <?php echo $_POST['price'] ?>" name="price">
+                                    <input type="hidden" value=" <?php echo $_POST['title'] ?>" name="title">
+
                                     <button   type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
                                 </div>
                             </div>
