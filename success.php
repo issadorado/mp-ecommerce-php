@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
@@ -64,95 +65,23 @@
                 </div>
             </div>
             <div class="as-search-results as-filter-open as-category-landing as-desktop" id="as-search-results">
+            <br><br>
+            <div align="center">
+                                    <h1>¡Tu compra ha sido completada  con éxito!</h1>
+                                    <br><br>
+                                    <h3> En breve recibirás tu celular a la puerta de tu casa </h3>
+                                    <br><br>
 
-                <div id="accessories-tab" class="as-accessories-details">
-                    <div class="as-accessories" id="as-accessories">
-                        <div class="as-accessories-header">
-                            <div class="as-search-results-count">
-                                <span class="as-search-results-value"></span>
-                            </div>
-                        </div>
-                        <div class="as-searchnav-placeholder" style="height: 77px;">
-                            <div class="row as-search-navbar" id="as-search-navbar" style="width: auto;">
-                                <div class="as-accessories-filter-tile column large-6 small-3">
+                                    <h3> Collection/Payment ID: <? echo $_GET['collection_id']; ?>  <? echo $_GET['payment_id']; ?>  &nbsp; &nbsp;&nbsp;   Payment Method ID: <? echo $_GET['payment_method_id']; ?> &nbsp;&nbsp;&nbsp; External Refenrence <? echo $_GET['external_reference']; ?> </h3>
 
-                                    <button class="as-filter-button" aria-expanded="true" aria-controls="as-search-filters" type="button">
-                                        <h2 class=" as-filter-button-text">
-                                            Smartphones
-                                        </h2>
-                                    </button>
-
-
-                                </div>
-
-                            </div>
-                        </div>
-                        <div class="as-accessories-results  as-search-desktop">
-                            <div class="width:60%">
-                                <div class="as-producttile-tilehero with-paddlenav " style="float:left;">
-                                    <div class="as-dummy-container as-dummy-img">
-
-                                        <img src="./assets/wireless-headphones" class="ir ir item-image as-producttile-image  " style="max-width: 70%;max-height: 70%;"alt="" width="445" height="445">
-                                    </div>
-                                    <div class="images mini-gallery gal5 ">
-                                    
-
-                                        <div class="as-isdesktop with-paddlenav with-paddlenav-onhover">
-                                            <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="6|Powerbeats3 Wireless Earphones - Neighborhood Collection - Brick Red|MPXP2">
-                                                <div class="as-tilegallery-element as-image-selected">
-                                                    <div class=""></div>
-                                                    <img src="./assets/003.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" style="content:-webkit-image-set(url(<?php echo $_POST['img'] ?>) 2x);">
-                                                </div>
-                                                
-                                            </div>
-
-                                            
+                                    <br><br>
+                                    <h4> Gracias por confiar en tu Tienda e-commerce =D </h4>
                                         </div>
-
-                                        
-
-                                    </div>
-
-                                </div>
-                                <div class="as-producttile-info" style="float:left;min-height: 168px;">
-                                    <div class="as-producttile-titlepricewraper" style="min-height: 128px;">
-                                        <div class="as-producttile-title">
-                                            <h3 class="as-producttile-name">
-                                                <p class="as-producttile-tilelink">
-                                                    <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
-                                                </p>
-
-                                            </h3>
-                                        </div>
-                                        <h3 >
-                                            <?php echo $_POST['price'] ?>
-                                        </h3>
-                                        <h3 >
-                                            <?php echo "$" . $_POST['unit'] ?>
-                                        </h3>
-                                    </div>
-                                    <input type="hidden" value=" <?php echo $_POST['price'] ?>" name="price">
-                                    <input type="hidden" value=" <?php echo $_POST['title'] ?>" name="title">
-                                    <input type="hidden" value=" <?php echo $_POST['img'] ?>" name="img">
-                                    <input type="hidden" value=" <?php echo $_POST['unit'] ?>" name="unit">
-
-
-                                    <button   type="submit" class="mercadopago-button" formmethod="post">Pagar</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
         <div role="alert" class="as-loader-text ally" aria-live="assertive"></div>
-        <div class="as-footnotes">
-            <div class="as-footnotes-content">
-                <div class="as-footnotes-sosumi">
-                    Todos los derechos reservados Tienda Tecno 2019
-                </div>
-            </div>
-        </div>
+       
 
 
 
