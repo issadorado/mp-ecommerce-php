@@ -54,8 +54,10 @@ $item->picture_url = $link;
 $item->category_id = "phones";
 $item->quantity = 1;
 $item->unit_price = intval($_POST['price']);
-$item->notification_url ='https://mpid.herokuapp.com/notification.php';
-$item->external_reference ='issadorado@gmail.com';
+
+
+$preference->notification_url ='https://mpid.herokuapp.com/notification.php';
+$preference->external_reference ='issadorado@gmail.com';
 
 $preference->items = array($item);
 $preference->payer = $payer;
