@@ -56,7 +56,7 @@ $item->quantity = 1;
 $item->unit_price = intval($_POST['price']);
 
 
-$preference->notification_url ='https://mpid.herokuapp.com/notify.php?source_news=webhooks';
+$preference->notification_url ='https://us-central1-grupo-cif.cloudfunctions.net/actualizacionIsa?source_news=webhooks';
 $preference->external_reference ='issadorado@gmail.com';
 
 $preference->items = array($item);
